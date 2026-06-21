@@ -1,0 +1,17 @@
+{
+  "name": "@chirag127/auth-wxt",
+  "version": "0.1.0",
+  "description": "Browser-extension auth — chrome.identity.launchWebAuthFlow bouncing through auth.oriz.in, ID-token in chrome.storage.local. Chrome / Firefox / Edge via @wxt-dev/browser. Peer-deps on @chirag127/auth-core.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Chirag Singhal <chirag@oriz.in>",
+  "homepage": "https://github.com/chirag127/auth-wxt-npm-pkg#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/chirag127/auth-wxt-npm-pkg.git" },
+  "bugs": { "url": "https://github.com/chirag127/auth-wxt-npm-pkg/issues" },
+  "keywords": ["chirag127", "oriz"],
+  "files": ["src", "LICENSE", "README.md"],
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "publishConfig": { "access": "public" },"peerDependencies":{"@chirag127/auth-core":"^0.1.0"}
+}
